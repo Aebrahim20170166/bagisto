@@ -1,0 +1,80 @@
+2024-02-29 15:52:25,475 INFO Set uid to user 0 succeeded
+2024-02-29 15:52:25,500 INFO supervisord started with pid 8
+2024-02-29 15:52:26,517 INFO spawned: 'worker_00' with pid 9
+2024-02-29 15:52:26,548 INFO spawned: 'worker_01' with pid 10
+2024-02-29 15:52:26,578 INFO spawned: 'worker_02' with pid 11
+2024-02-29 15:52:26,625 INFO spawned: 'worker_03' with pid 12
+2024-02-29 15:52:27,647 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 15:52:27,652 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 15:52:27,674 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 15:52:27,678 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:33:22,929 INFO Set uid to user 0 succeeded
+2024-02-29 21:33:23,004 INFO supervisord started with pid 8
+2024-02-29 21:33:24,049 INFO spawned: 'worker_00' with pid 9
+2024-02-29 21:33:24,103 INFO spawned: 'worker_01' with pid 10
+2024-02-29 21:33:24,129 INFO spawned: 'worker_02' with pid 11
+2024-02-29 21:33:24,290 INFO spawned: 'worker_03' with pid 12
+2024-02-29 21:33:25,328 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:33:25,341 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:33:25,342 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:33:25,355 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:59:02,696 INFO Set uid to user 0 succeeded
+2024-02-29 21:59:02,759 INFO supervisord started with pid 9
+2024-02-29 21:59:03,999 INFO spawned: 'worker_00' with pid 10
+2024-02-29 21:59:04,226 INFO spawned: 'worker_01' with pid 11
+2024-02-29 21:59:04,346 INFO spawned: 'worker_02' with pid 12
+2024-02-29 21:59:04,434 INFO spawned: 'worker_03' with pid 13
+2024-02-29 21:59:05,502 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:59:05,513 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:59:05,532 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-29 21:59:05,549 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:06:52,073 INFO Set uid to user 0 succeeded
+2024-03-01 12:06:52,123 INFO supervisord started with pid 8
+2024-03-01 12:06:53,150 INFO spawned: 'worker_00' with pid 9
+2024-03-01 12:06:53,181 INFO spawned: 'worker_01' with pid 10
+2024-03-01 12:06:53,219 INFO spawned: 'worker_02' with pid 11
+2024-03-01 12:06:53,273 INFO spawned: 'worker_03' with pid 12
+2024-03-01 12:06:54,310 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:06:54,312 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:06:54,313 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:06:54,318 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:19:35,282 INFO Set uid to user 0 succeeded
+2024-03-01 12:19:35,328 INFO supervisord started with pid 8
+2024-03-01 12:19:36,343 INFO spawned: 'worker_00' with pid 9
+2024-03-01 12:19:36,371 INFO spawned: 'worker_01' with pid 10
+2024-03-01 12:19:36,416 INFO spawned: 'worker_02' with pid 11
+2024-03-01 12:19:36,455 INFO spawned: 'worker_03' with pid 12
+2024-03-01 12:19:37,468 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:19:37,473 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:19:37,476 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:19:37,494 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:35:57,284 INFO Set uid to user 0 succeeded
+2024-03-01 12:35:57,311 INFO supervisord started with pid 9
+2024-03-01 12:35:58,322 INFO spawned: 'worker_00' with pid 10
+2024-03-01 12:35:58,339 INFO spawned: 'worker_01' with pid 11
+2024-03-01 12:35:58,356 INFO spawned: 'worker_02' with pid 12
+2024-03-01 12:35:58,366 INFO spawned: 'worker_03' with pid 13
+2024-03-01 12:35:59,370 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:35:59,372 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:35:59,374 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 12:35:59,376 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:12:54,638 INFO Set uid to user 0 succeeded
+2024-03-01 14:12:55,010 INFO supervisord started with pid 8
+2024-03-01 14:12:56,059 INFO spawned: 'worker_00' with pid 9
+2024-03-01 14:12:56,068 INFO spawned: 'worker_01' with pid 10
+2024-03-01 14:12:56,076 INFO spawned: 'worker_02' with pid 11
+2024-03-01 14:12:56,092 INFO spawned: 'worker_03' with pid 12
+2024-03-01 14:12:57,211 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:12:57,367 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:12:57,368 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:12:57,369 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:29:52,534 INFO Set uid to user 0 succeeded
+2024-03-01 14:29:53,060 INFO supervisord started with pid 8
+2024-03-01 14:29:54,073 INFO spawned: 'worker_00' with pid 9
+2024-03-01 14:29:54,083 INFO spawned: 'worker_01' with pid 10
+2024-03-01 14:29:54,093 INFO spawned: 'worker_02' with pid 11
+2024-03-01 14:29:54,103 INFO spawned: 'worker_03' with pid 12
+2024-03-01 14:29:55,105 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:29:55,542 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:29:55,621 INFO success: worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-01 14:29:55,722 INFO success: worker_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

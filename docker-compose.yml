@@ -1,0 +1,95 @@
+version: "3"
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            args:
+                - APP_ENV=${APP_ENV}
+                - RUN_MIGRATIONS=true
+        image: alaa12345/bagisto
+        restart: unless-stopped
+        expose:
+            - "9000"
+        volumes:
+            - .:/var/www/
+        networks:
+            - app-network
+        depends_on:
+            - redis
+            - db
+
+    #worker:
+        #build:
+            #context: .
+            #dockerfile: Dockerfile
+            #args:
+                #- APP_ENV=${APP_ENV}
+                #- RUN_MIGRATIONS=false
+        #restart: unless-stopped
+        #volumes:
+            #- .:/var/www/
+        #networks:
+            #- app-network
+        #depends_on:
+            #- redis
+            #- db
+
+    db:
+        image: mysql:8.0
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+            MYSQL_INIT_CONNECT: "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;"
+            MYSQL_OPTS: "--character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --innodb_buffer_pool_size=512M --innodb_log_file_size=256M"
+        ports:
+            - "3306:3306"
+        expose:
+            - "3306"
+        volumes:
+            - db-data:/var/lib/mysql
+        networks:
+            - app-network
+
+    nginx:
+        image: nginx:alpine
+        restart: unless-stopped
+        volumes:
+            - ./docker/nginx/conf.d:/etc/nginx/conf.d
+            - .:/var/www/
+        ports:
+            - "80:80"
+            - "443:443"
+        depends_on:
+            - app
+        networks:
+            - app-network
+
+    redis:
+        image: redis:alpine
+        restart: unless-stopped
+        ports:
+            - "6379:6379"
+        expose:
+            - "6379"
+        volumes:
+            - redis-data:/data
+        networks:
+            - app-network
+        command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
+        sysctls:
+            - net.core.somaxconn=5000
+        privileged: true
+
+
+networks:
+    app-network:
+        driver: bridge
+
+volumes:
+    redis-data:
+    db-data:
+    app-data:
